@@ -1,34 +1,9 @@
-body ,html {
-    height: 100%;
-    margin: 0;
+.sidebar-heading-custom {
+    background-color: #ff5251;
+    color: #ffffff;
 }
-.backgrounds {
-    background-image: url("../img/bg.jpg");
-    height: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    
-}
-
-
-.backgrounds::after{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(20, 106, 218, 0.3);
-}
-
-.section-code {
-    border: 9px solid;
-    background: #202746;
-    width: 40%;
-    border-color: white;
-    height: 200px;
-    position: relative;
-    z-index: 1;
-    border-radius: 4px;
+.main-job {
+    color: black;
+    font-size: 13px;
+    text-align: end;
 }
